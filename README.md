@@ -23,6 +23,8 @@
 ### Installation
 
 1. Склонируйте данный репозиторий git clone git@github.com:andro1d1/telegram_bot.git
-1. Создайте бота с помощью @BotFather и занесите токен в secrets/credentials.json
-2. Получите API ключи с ресурсов OpenWeatherMap и Exchange Rates и также занесите их в secrets/credentials.json в соответствующие ключи.
-3. Запустить модуль main.py
+2. Создайте бота с помощью @BotFather и занесите токен в secrets/credentials.json
+3. Получите API ключи с ресурсов OpenWeatherMap и Exchange Rates и также занесите их в secrets/credentials.json в соответствующие ключи.
+4. Запустить модуль main.py
+P.S. Города проверяются с файлом settings/cities.json, требуется добавить нужные города при необходимости. 
+С валютами та же самая ситуация, хранятся в main.py в качестве списка. При необходимости дополнить.
